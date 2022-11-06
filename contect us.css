@@ -1,0 +1,33 @@
+.headline{
+    margin-left: 45%;
+}
+.firstname{
+margin-bottom: 1%; margin-left: 45%;
+}
+.lastname{
+    margin-bottom: 1%; margin-left: 45%;
+}
+.phonenumber{
+margin-bottom: 1%; margin-left: 45%;
+}
+.message{
+margin-bottom: 1%; margin-left: 45%;
+}
+.dot{
+margin-bottom: 1%;    margin-left: 45%;
+}
+.headgender{
+margin-left: 45%;   
+}
+.gender{
+margin-bottom: 1%;
+}
+.file{
+margin-bottom: 1%; margin-left: 45%;
+}
+.submit{
+    margin-left: 45%;
+}
+.reset{
+    margin-left: 45%;
+}
