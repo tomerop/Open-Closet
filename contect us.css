@@ -1,3 +1,58 @@
+.button{
+    background-color: transparent;
+    padding: 16px;
+    font-size: 16px;
+    border: 0px;
+
+}
+.menu{
+    position: relative;
+    display: inline;
+}
+.e{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0;
+}
+.options{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        font-family: Arial, Helvetica, sans-serif;
+}
+.options a{
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: rgb(255, 255, 255);
+    display: block;
+
+}
+.options a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.menu:hover .options {display: block;}
+
+.menu:hover .button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.social{
+    background-color: transparent;
+    position: absolute;
+    right: 0px;
+}
+.social:hover .options {display: block;}
+
+.social:hover .button {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
 .headline{
     margin-left: 45%;
 }
